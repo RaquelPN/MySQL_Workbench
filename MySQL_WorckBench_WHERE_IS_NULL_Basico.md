@@ -1,0 +1,14 @@
+```MYSQL
+USE sakila;
+-- IS NULL ANALISA QUAL CAMPO NÃO TEM INFORMAÇÃO
+```
+```MYSQL
+SELECT *
+FROM address
+wHERE address2 IS NULL
+```
+```MYSQL
+SELECT *
+FROM address
+wHERE address2 IS NOT NULL
+```
