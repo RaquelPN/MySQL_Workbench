@@ -6,7 +6,7 @@ USE sakila;
 SELECT 
 	customer_id,
 	amount,
-  amount - (amount * 0.10) as 'discont'
+  amount - (amount * 0.10) as 'discount'
 FROM payment
 WHERE customer_id = 1
  ```
